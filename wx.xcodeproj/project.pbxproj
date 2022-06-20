@@ -14,6 +14,8 @@
 		23A15015285E221E00B05B7D /* wxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A15014285E221E00B05B7D /* wxTests.swift */; };
 		23A1501F285E221E00B05B7D /* wxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1501E285E221E00B05B7D /* wxUITests.swift */; };
 		23A15021285E221E00B05B7D /* wxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A15020285E221E00B05B7D /* wxUITestsLaunchTests.swift */; };
+		23A1502E285E224600B05B7D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A1502D285E224600B05B7D /* LocationManager.swift */; };
+		23F822EC285EFF9500C9F356 /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F822EB285EFF9500C9F356 /* Airport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		23A1501A285E221E00B05B7D /* wxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		23A1501E285E221E00B05B7D /* wxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wxUITests.swift; sourceTree = "<group>"; };
 		23A15020285E221E00B05B7D /* wxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		23A1502D285E224600B05B7D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		23F822EB285EFF9500C9F356 /* Airport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Airport.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				23A15003285E221C00B05B7D /* wxApp.swift */,
 				23A15005285E221C00B05B7D /* ContentView.swift */,
+				23A1502D285E224600B05B7D /* LocationManager.swift */,
+				23F822EB285EFF9500C9F356 /* Airport.swift */,
 				23A15007285E221E00B05B7D /* Assets.xcassets */,
 				23A15009285E221E00B05B7D /* Preview Content */,
 			);
@@ -259,6 +265,8 @@
 			files = (
 				23A15006285E221D00B05B7D /* ContentView.swift in Sources */,
 				23A15004285E221C00B05B7D /* wxApp.swift in Sources */,
+				23A1502E285E224600B05B7D /* LocationManager.swift in Sources */,
+				23F822EC285EFF9500C9F356 /* Airport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +428,7 @@
 				DEVELOPMENT_TEAM = 2239N37K5W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "$(DEVELOPMENT_LANGUAGE)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -449,6 +458,7 @@
 				DEVELOPMENT_TEAM = 2239N37K5W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "$(DEVELOPMENT_LANGUAGE)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
